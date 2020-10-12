@@ -11,6 +11,7 @@ import UserEdit from "./components/UserEdit";
 function App() {
   return (
     <Admin dataProvider={restProvider("http://localhost:3000")}>
+    <h1>Learn React Admin from https://www.youtube.com/watch?v=HRmdj-HpJyE </h1>
       <Resource
         name="posts"
         list={PostList}
